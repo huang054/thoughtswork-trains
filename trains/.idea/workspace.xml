@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="905da1ea-411c-4848-ba79-5037acad1b87" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../../apache-maven-3.6.2/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VIWuPNCD7Eof3s4yuze227tcb2" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/trains" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.trains.process" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/trains" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.RouteTest.outPut">
+    <configuration name="RouteTest.fixedDistanceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="trains" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.trains.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.trains" />
+      <option name="MAIN_CLASS_NAME" value="com.trains.RouteTest" />
+      <option name="METHOD_NAME" value="fixedDistanceTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RouteTest.fixedStopsDistanceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="trains" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.trains.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.trains" />
+      <option name="MAIN_CLASS_NAME" value="com.trains.RouteTest" />
+      <option name="METHOD_NAME" value="fixedStopsDistanceTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RouteTest.limitStopsDistanceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="trains" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.trains.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.trains" />
+      <option name="MAIN_CLASS_NAME" value="com.trains.RouteTest" />
+      <option name="METHOD_NAME" value="limitStopsDistanceTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RouteTest.minLengthDistanceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="trains" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.trains.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.trains" />
+      <option name="MAIN_CLASS_NAME" value="com.trains.RouteTest" />
+      <option name="METHOD_NAME" value="minLengthDistanceTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RouteTest.outPut" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="trains" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.trains.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.trains" />
+      <option name="MAIN_CLASS_NAME" value="com.trains.RouteTest" />
+      <option name="METHOD_NAME" value="outPut" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RouteTest.outPut" />
+        <item itemvalue="JUnit.RouteTest.fixedDistanceTest" />
+        <item itemvalue="JUnit.RouteTest.limitStopsDistanceTest" />
+        <item itemvalue="JUnit.RouteTest.fixedStopsDistanceTest" />
+        <item itemvalue="JUnit.RouteTest.minLengthDistanceTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="905da1ea-411c-4848-ba79-5037acad1b87" name="Default Changelist" comment="" />
+      <created>1576941311345</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576941311345</updated>
+    </task>
+    <servers />
+  </component>
+</project>
