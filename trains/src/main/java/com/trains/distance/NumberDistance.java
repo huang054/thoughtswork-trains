@@ -1,7 +1,6 @@
 package com.trains.distance;
 
 
-
 import com.trains.model.Point;
 import com.trains.model.Route;
 
@@ -20,18 +19,18 @@ public class NumberDistance extends AbstractProcess {
     @Override
     public String compute(Point[] points) {
         checkArgument(points);
-        Point begin=points[0];
-        Point end=points[1];
-        List<Route> copyRoute=copy();
-        List<Route> routes= screenBegin(copyRoute,begin);
-        int number=0;
-        while (routes.size()!=0){
+        Point begin = points[0];
+        Point end = points[1];
+        List<Route> copyRoute = copy();
+        List<Route> routes = screenBegin(copyRoute, begin);
+        int number = 0;
+        while (routes.size() != 0) {
 
-            number+=routes.stream().filter(route -> route.getTo().getName()
-                    .equals(end.getName())&&route.getLength()<limitLength)
+            number += routes.stream().filter(route -> route.getTo().getName()
+                    .equals(end.getName()) && route.getLength() < limitLength)
                     .collect(Collectors.toList()).size();
-            routes=screeningAvailableNumber(routes,copyRoute);
-            routes=routes.stream().filter(route -> route.getLength()<limitLength)
+            routes = screeningAvailableNumber(routes, copyRoute);
+            routes = routes.stream().filter(route -> route.getLength() < limitLength)
                     .collect(Collectors.toList());
 
         }

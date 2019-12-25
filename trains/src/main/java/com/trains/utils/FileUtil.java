@@ -15,16 +15,16 @@ import java.util.List;
 
 public class FileUtil {
     public static List<Route> readFileContent(String fileName) {
-        File file = new File(FileUtil.class.getResource(System.getProperty("file.separator")+fileName).getFile());
+        File file = new File(FileUtil.class.getResource(System.getProperty("file.separator") + fileName).getFile());
         BufferedReader reader = null;
         List<Route> routes = new ArrayList<>();
         try {
             reader = new BufferedReader(new FileReader(file));
             String tempStr;
-            Route route=null;
+            Route route = null;
             while ((tempStr = reader.readLine()) != null) {
-               String[] strings= tempStr.split("");
-                route = new Route(new Point(strings[0]),new Point(strings[1]),Integer.parseInt(strings[2]));
+                String[] strings = tempStr.split("");
+                route = new Route(new Point(strings[0]), new Point(strings[1]), Integer.parseInt(strings[2]));
                 routes.add(route);
             }
             reader.close();
@@ -44,15 +44,15 @@ public class FileUtil {
     }
 
     public static List<RouteInAndOut> readFileContent(String fileName, InAndOutRead inAndOutRead) {
-        File file = new File(FileUtil.class.getResource(System.getProperty("file.separator")+fileName).getFile());
+        File file = new File(FileUtil.class.getResource(System.getProperty("file.separator") + fileName).getFile());
         BufferedReader reader = null;
         List<RouteInAndOut> routes = new ArrayList<>();
         try {
             reader = new BufferedReader(new FileReader(file));
             String tempStr;
-            RouteInAndOut route=null;
+            RouteInAndOut route = null;
             while ((tempStr = reader.readLine()) != null) {
-                route=inAndOutRead.readInAndOut(tempStr);
+                route = inAndOutRead.readInAndOut(tempStr);
                 routes.add(route);
             }
             reader.close();

@@ -48,7 +48,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RouteTest.outPut">
+  <component name="RunManager" selected="JUnit.RouteTest.numberDistanceTest">
     <configuration name="RouteTest.fixedDistanceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="trains" />
       <extension name="coverage">
@@ -60,22 +60,6 @@
       <option name="PACKAGE_NAME" value="com.trains" />
       <option name="MAIN_CLASS_NAME" value="com.trains.RouteTest" />
       <option name="METHOD_NAME" value="fixedDistanceTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RouteTest.fixedStopsDistanceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="trains" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.trains.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.trains" />
-      <option name="MAIN_CLASS_NAME" value="com.trains.RouteTest" />
-      <option name="METHOD_NAME" value="fixedStopsDistanceTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -113,6 +97,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RouteTest.numberDistanceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="trains" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.trains.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.trains" />
+      <option name="MAIN_CLASS_NAME" value="com.trains.RouteTest" />
+      <option name="METHOD_NAME" value="numberDistanceTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RouteTest.outPut" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="trains" />
       <extension name="coverage">
@@ -131,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RouteTest.numberDistanceTest" />
+        <item itemvalue="JUnit.RouteTest.minLengthDistanceTest" />
         <item itemvalue="JUnit.RouteTest.outPut" />
         <item itemvalue="JUnit.RouteTest.fixedDistanceTest" />
         <item itemvalue="JUnit.RouteTest.limitStopsDistanceTest" />
-        <item itemvalue="JUnit.RouteTest.fixedStopsDistanceTest" />
-        <item itemvalue="JUnit.RouteTest.minLengthDistanceTest" />
       </list>
     </recent_temporary>
   </component>
